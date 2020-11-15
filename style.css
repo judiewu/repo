@@ -21,22 +21,23 @@ img {
 }
 
 div {
-  width: 200px;
-  height: 200px;
-  display: block;
-  position: relative;
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 div::after {
   content: "";
-  background: url(image.jpg);
+  background: url(https://lh3.googleusercontent.com/-pyBkBO_1xemgMmOwUsEmRSmf2ZvD9UV8JhK9tQrFKvyXXGGBf51QItEJtn44yybpmOpVfhT9D17-fHTBaj9zyE6Ty-GN6HJ9CyVhitZmDNhyozJSKkJGVQT9v9gxXCIIdUPswRA-zBsDZaP3WsFwf77tA6b3UkfnAfP7zGQEtk4yjYaXAJWHOsw1G-QTVWezKY56vHNgQWH--L5hxbX_NN294oDYOvy_mOiqh15zhoboZjYAHHBxEhh5vmFgnyPbLUOHirQohCychfN6qjg1-ZGZ0LvEROpmz_jz-4eydtQ3C4lZbU8g7T21ii3uTjLwDuhvmvgIr6ZMd9Gj7q7FaVfiDVG3JZnO9xXm-ypfzEesbKIC5ypMuwldURrhWoQ-i2CUfJjcPojB_6dawvQbiusBvdaiEFWUUEQX4mnVXlKd2lS_6_KW4eOFpHMff8B9WZ3G1pLsiAoa1IL8dGXJrCHPh0SmWOJlLcbAVJwl1ZWSxJfDGb4ZK2zXekiUKPrnpHAFyEkhOWddxJ2PW-EIw13ZYgPtP1im05DfwopRbRRrLJ-ty4O11VbqijtSendwJ4DdRoI1pS6s_BnqpGkIgZzVTDmdZmc41vEIFrDprL6RXzS-Ya_NYFINTxuu2RHIzons2m3L2_vH7VGg8_u0mERo9XOFfx0g2Jb-3TBcOtnVG4GMevmLT7o1cr1Ag=w1952-h1464-no?authuser=0);
   opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  position: absolute; 
 }
 
 
