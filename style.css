@@ -22,7 +22,7 @@ img {
 
 .container {
   width:100%;
-  height:auto;
+  height:100vh;
   position:relative;
   display:block;
   padding:1rem;
