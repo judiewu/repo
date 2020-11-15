@@ -20,24 +20,30 @@ img {
   float: left;
 }
 
-div {
-  position: relative; 
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+container{
+  width:700px;
+  height:400px;
+  position:relative;
+  display:block;
+  padding:1rem;
 }
 
-div::after {
-  content: "";
-  background: url(https://lh3.googleusercontent.com/-pyBkBO_1xemgMmOwUsEmRSmf2ZvD9UV8JhK9tQrFKvyXXGGBf51QItEJtn44yybpmOpVfhT9D17-fHTBaj9zyE6Ty-GN6HJ9CyVhitZmDNhyozJSKkJGVQT9v9gxXCIIdUPswRA-zBsDZaP3WsFwf77tA6b3UkfnAfP7zGQEtk4yjYaXAJWHOsw1G-QTVWezKY56vHNgQWH--L5hxbX_NN294oDYOvy_mOiqh15zhoboZjYAHHBxEhh5vmFgnyPbLUOHirQohCychfN6qjg1-ZGZ0LvEROpmz_jz-4eydtQ3C4lZbU8g7T21ii3uTjLwDuhvmvgIr6ZMd9Gj7q7FaVfiDVG3JZnO9xXm-ypfzEesbKIC5ypMuwldURrhWoQ-i2CUfJjcPojB_6dawvQbiusBvdaiEFWUUEQX4mnVXlKd2lS_6_KW4eOFpHMff8B9WZ3G1pLsiAoa1IL8dGXJrCHPh0SmWOJlLcbAVJwl1ZWSxJfDGb4ZK2zXekiUKPrnpHAFyEkhOWddxJ2PW-EIw13ZYgPtP1im05DfwopRbRRrLJ-ty4O11VbqijtSendwJ4DdRoI1pS6s_BnqpGkIgZzVTDmdZmc41vEIFrDprL6RXzS-Ya_NYFINTxuu2RHIzons2m3L2_vH7VGg8_u0mERo9XOFfx0g2Jb-3TBcOtnVG4GMevmLT7o1cr1Ag=w1952-h1464-no?authuser=0);
-  opacity: 0.5;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  position: absolute; 
+container::before{
+  content:"";
+  background-image: url('https://lh3.googleusercontent.com/Y0ciAkT3zHeWEdDT-qlsBIS5JpWptwoNhgUtZ_cVXOSbZaJxxk0mFvy3dNLRyjM3574--JQFlBeL52N6GlS8txuFpeqFJnkEVua-sB293C_wpgx5E3oJ7AkDSntERHBot9CBaAfab3VzcXBfu0_Fefx7GtDJJil4hJeni5bsNrjqmlUqqjT7hrwxjIuO_cMVeYq7DEcPHltQ6sS_SeEI2mP9BTXJb9sXOzxj5jNHfd1-ET6bZUlotPgfRUoRoxlmA2QsnNIlkiZF8py5XsQ863bNgcilXv9XCkDqndfDW8T5m6b17FPIwWuFr_Z2oEhP98W-XUs4YC0_yYz8itDdMzwKR1jIf-bfUk4U7lQwZcJm7KTywKpdGcj7o-c7UcapGg9Bv3gw9RhZnueuUgNMuf0Ms89_-OG6JEOWnWVh7xISlzWxYfLsGI_y5mA8969Px8jSX2DA57bA8DvCasgtZFeI_NlwlvTSMOv9xl32w6Gi5JHVdTMXV3sI8dhWzJC7uMAGh7Ct2bW7zhcVZJs_MUg4xDg-NTHJ-LTMo0VDkXWuozD9sCmwPSK_rfQPD71Ey7s2osQPrrjCMVZpOj15k52-N9rnaBUbb_4IPGbmjXbodkoIjgwqENjt5Zmzy7Rnt95RL5apWFwuYWPmgtMhGUC-FlkDPjFoDZ3qzNXkLUMgM0-_rFJX3LorGm43Kw=w1952-h1464-no?authuser=0');
+  opacity:0.5;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  width:auto;
+  height:auto;
+  z-index:-3;
 }
 
 
+container h1{
+  text-align:center;
+  font-size:49px;
+}
