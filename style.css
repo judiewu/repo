@@ -8,7 +8,7 @@ body {
 h1 {
   font-style: italic;
   font-size: 90px;
-  color: lightpink;
+  color: darkgrey;
 }
 
 .responsive {
@@ -69,12 +69,12 @@ img {
 }
 
 .purple-column {
-  background-color: purple;
+  background-color: lavender;
   height: 100px;
 }
 
 .pink-column {
-  background-color: pink;
+  background-color: lavenderblush;
   height: 100px;
 }
 
