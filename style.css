@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Lucida Console", Courier, monospace;
   margin: 2em;
 }
 
@@ -10,3 +10,9 @@ h1 {
   font-size: 90px;
   color: lightpink;
 }
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
