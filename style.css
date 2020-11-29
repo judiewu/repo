@@ -1,34 +1,23 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  text-align: center;
 }
 
 h1 {
-  font-style: italic;
-  font-size: 90px;
-  color: darkgrey;
+  font-style: oblique;
+  ;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
+.mainPage { 
+  background-color: lightgray;
 }
 
-
-.container {
-  width:100%;
-  height:auto;
-  position:relative;
-  display:block;
-  padding:1rem;
-}
-
-.container {
+.redPill {
   content:"";
-  background-image: url('https://lh3.googleusercontent.com/08LrpFoVUGseUS8QOXVKZdYKQ5iXX6Ty-bG3dLulIKwUrOZxiIwJCX_6e8OK5SJu7Q7gBESKfRi_a9FhUAPSztDNgSMZJRN8MgeZSD9UC7VmrJ_3wzyKV85Xy8HkFlC-RR0FyWgcWaIM_jHIoEWLdx3ROtNG8HN8WTvp0uVETiR-QXznQ6peYoZh4vqvPNfpJXygAYGQlFsd__XU6ulIKM_s6KeD41itTYaJJ05egcd8SlghDeTGFaTLiUfJqyoUg3LWZX9lONuiPIxKGyJVPkuQfrp8abmXL-oqxtTDu0a6wZXffCVKLBVUWpaKXCieaW6LafDtCaHRBNZiiAmAh9NUtvHMqfqJd9RmJQWcLF6wNES-EsPneqZMc2Gd27FkevnVtY1pmbByK5Dr8GokIWDh0_P5Suoa-YBuSUuUQycz6hL1sWIktNgDTj_c0WePAdF7jIMvsDDWdY18iE_ENdZjCAHJ_S7m0lzxiafS6nVVI-piItU-Cr6MUyqQIgc6XdGi8E9fuH2PKw_8s4c61pwavabYzOTw4HMCWVfkz0mznUPFdovXQ5tRF4KmFNqBoNSL39yMeyJUSn9XMGYJhUg3vbts1GQPK1WiiciXS4qyuRuH9SlScewcj8ioI8PGtIxjhyt3JQcwAciX0Fxk2wJdnLLpeNhh6YfmtUcgm1X3Hf3mkdiT8MmGa5jFnA=w1098-h1464-no?authuser=0');
+  background-image: url('https://cdn.glitch.com/c10e5ca0-0dc5-4613-ac48-b9ea7d659d4b%2F9418E693-4604-4D05-A420-40146FF44357.jpg?v=1606618843738');
   background-size: cover;
   opacity:0.75;
   position:absolute;
@@ -39,40 +28,51 @@ h1 {
   width:auto;
   height:auto;
   z-index:-3;
+  color: white;
 }
 
-
-.container h1 {
-  text-align:center;
-  font-size:49px;
+.bluePill {
+  content:"";
+  background-image: url('https://cdn.glitch.com/c10e5ca0-0dc5-4613-ac48-b9ea7d659d4b%2FIMG_0019.JPG?v=1606618772778');
+  background-size: cover;
+  opacity:0.75;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  width:auto;
+  height:auto;
+  z-index:-3;
+  color: black;
 }
 
-.some-page-wrapper {
-  margin: 15px;
+.greenPath {
+  background-color: darkgreen;
+  color: white;
+}
+
+.pinkPath {
+  background-color: pink;
+}
+
+.purpleButton {
+  background-color: plum;
+}
+
+.yellowButton {
+  background-color: lemonchiffon;
+}
+
+.blackCup {
+  background-color: black;
+  color: white;
+}
+
+.whiteCup {
   background-color: white;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+.orangeCup {
+  background-color: darkorange;
 }
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-
-.purple-column {
-  background-color: lavender;
-  height: 100px;
-}
-
-.pink-column {
-  background-color: lavenderblush;
-  height: 100px;
-}
-
